@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#6cdbeb;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  top: 10%;
+  left: 20%;
+  position: absolute;
+  height: 80%;
+  width: 60%;
+  background: linear-gradient( to left bottom, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3) );
+  border-radius: 5%;
+}
+.gauche{
+  flex: 1;
+  height: 95.7%;
+  width: 30%;
+  align-items: center;
+  text-align: center;
+  border-radius:0%;
+  padding:13px 13px;
+  background:linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+  border-radius: 2rem;
+}
+.gauche img{
+	width:150px;
+	border:none;
+	border-radius:100px;
+}
+.gauche h1{
+	color:#426696;
+	font-size:22px;
+	opacity: 0.8;
+}
+.link {
+  display: flex;
+  margin: 0rem 0rem;
+  padding: 0.5rem 0rem;
+  align-items: center;
+}
+.link a {
+  padding: 0rem 1rem;
+  color:#426696;
+  font-size:18px;
+  text-decoration:none;
+}
+.link img{
+	width:50px;
+}
+.droite{
+  flex: 2;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+.droite h1{
+  padding: 0rem 9rem;
+  color:#426696;
+  font-size:39px;
+  align-items: center;
+}
+.desc{
+  display: flex;
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
